@@ -38,3 +38,26 @@ body{background:var(--paper);color:var(--ink)}
 .modal{border:1px solid #e8eee7;border-radius:16px;padding:30px;box-shadow:0 24px 80px #182c2050}.modal h2{font-size:21px;color:#263c2f}.modal-subtitle{font-size:12px}.modal form label{font-size:11px}.modal input,.modal select,.modal textarea{border-radius:8px;font-size:12px}.modal input,.modal select{height:41px}.modal-submit{margin-top:7px}.toast{border-radius:10px;background:#28553e;padding:13px 18px;box-shadow:0 10px 30px #1f443145}
 @media(max-width:1050px){.page-content{padding:34px 28px}.topbar{padding:0 28px}}
 @media(max-width:560px){.topbar{height:62px;padding:0 16px}.page-content{padding:26px 15px 90px}.welcome-row h1{font-size:26px}.stats-grid{gap:10px}.stat-card{height:105px;border-radius:11px;padding:14px 16px}.stat-value{font-size:26px;margin-top:5px}.owners-panel,.meetings-panel{padding:17px 13px 11px}.panel{border-radius:11px}.bottom-banner{min-height:82px;border-radius:11px}.full-panel{padding:17px 13px}.modal{border-radius:14px;padding:25px 20px}}
+
+.nav-item .icon{display:block;width:18px;height:18px;flex:0 0 18px;stroke-width:1.8}
+.app-shell{min-width:320px}
+.nav-mobile-label{display:none}
+.onboarding-empty{min-height:220px;padding:28px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.onboarding-empty .empty-icon{width:42px;height:42px;margin-bottom:13px;border-radius:14px;display:grid;place-items:center;background:#edf4ec;color:#356c4b;font-size:24px}
+.onboarding-empty strong{font-size:14px;color:#2c4534}
+.onboarding-empty p{max-width:340px;margin:7px 0 14px;color:#78867b;font-size:11px;line-height:1.6}
+.empty-action{border:0;background:transparent;color:#356c4b;font-size:11px;font-weight:700;padding:5px 2px}
+.empty-action:hover{text-decoration:underline;text-underline-offset:3px}
+.compact-empty{min-height:170px;padding:20px 8px}
+.compact-empty .empty-icon{display:none}
+.empty-state .empty-action{display:block;margin:7px auto 0}
+@media(max-width:560px){
+  .nav-item .nav-label{display:none!important}
+  .nav-item .nav-mobile-label{display:block!important;font-size:9px;line-height:1;white-space:nowrap}
+  .nav-item{gap:5px}
+  .stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat-card{height:112px;padding:13px 12px}
+  .stat-top{font-size:10px;line-height:1.35}
+  .stat-foot{font-size:9px;line-height:1.35}
+  .onboarding-empty{min-height:195px;padding:24px 14px}
+}
