@@ -39,6 +39,11 @@ body{background:var(--paper);color:var(--ink)}
 @media(max-width:1050px){.page-content{padding:34px 28px}.topbar{padding:0 28px}}
 @media(max-width:560px){.topbar{height:62px;padding:0 16px}.page-content{padding:26px 15px 90px}.welcome-row h1{font-size:26px}.stats-grid{gap:10px}.stat-card{height:105px;border-radius:11px;padding:14px 16px}.stat-value{font-size:26px;margin-top:5px}.owners-panel,.meetings-panel{padding:17px 13px 11px}.panel{border-radius:11px}.bottom-banner{min-height:82px;border-radius:11px}.full-panel{padding:17px 13px}.modal{border-radius:14px;padding:25px 20px}}
 
+/* Meeting rows contain a date, details, and an edit button. */
+.full-meeting{grid-template-columns:54px minmax(0,1fr) auto;align-items:center;gap:12px}
+.full-meeting .action-button{justify-self:end;white-space:nowrap}
+@media(max-width:560px){.full-meeting{grid-template-columns:43px minmax(0,1fr) auto;gap:9px}}
+
 .nav-item .icon{display:block;width:18px;height:18px;flex:0 0 18px;stroke-width:1.8}
 .app-shell{min-width:320px}
 .nav-mobile-label{display:none}
