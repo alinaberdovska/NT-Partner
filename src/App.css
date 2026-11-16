@@ -66,3 +66,4 @@ body{background:var(--paper);color:var(--ink)}
   .stat-foot{font-size:9px;line-height:1.35}
   .onboarding-empty{min-height:195px;padding:24px 14px}
 }
+.auth-recovery{display:block;margin:16px auto 0;padding:0;border:0;background:none;color:#587663;font:600 11px Arial,sans-serif;cursor:pointer}.auth-recovery:hover{text-decoration:underline}
