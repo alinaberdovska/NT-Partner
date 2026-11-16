@@ -5,11 +5,10 @@ NT-Partner – internetinė darbo erdvė nekilnojamojo turto (NT) specialistams.
 ## Nuorodos
 
 - **Veikianti aplikacija:** https://nt-partner-hzoedyqjj-alina-berdovska.vercel.app/
+- **Supabase projektas:** https://supabase.com/dashboard/project/wyixvovzqdgqghiqiztt
 - **Projekto dokumentacija (Notion):** https://app.notion.com/p/41ab3d8e8ed48141866cea6dd65b6110?pvs=204
 - **GitHub saugykla:** https://github.com/alinaberdovska/NT-Partner
 - **Zapier automatizacija:** https://zapier.com/editor/00000000-0000-c000-8000-000386843667/published
-
-> Supabase projekto nuoroda dokumentacijoje dar nepatikslinta. Įrašyk tikrą Supabase Dashboard arba projekto URL, o ne Vercel aplikacijos adresą.
 
 ## Funkcionalumas
 
